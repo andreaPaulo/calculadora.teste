@@ -8,7 +8,9 @@ public class CalculadoraTest {
 
 	@Test
 	public void testSomar() {
-		fail("Not yet implemented");
+		Calculadora calc = new Calculadora();
+		int soma=  calc.somar("5+3+2");
+		assertEquals(10, soma);
 	}
 
 }
